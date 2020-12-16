@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="971.0" y="897.0">Persons.Grumbler</node>
+    <node x="510.0" y="638.0">Persons.Person</node>
+    <node x="0.0" y="1030.0">Nature.TimeOfDay</node>
+    <node x="81.0" y="146.0">Places.Balloon</node>
+    <node x="415.0" y="908.5">Persons.Toropyzhka</node>
+    <node x="563.0" y="908.5">Persons.Znaika</node>
+    <node x="681.0" y="908.5">Persons.Neznaika</node>
+    <node x="273.0" y="234.5">Nature.Wind</node>
+    <node x="140.0" y="516.0">Places.Balloon.Bench</node>
+    <node x="376.74999999999994" y="0.0">Interfaces.StatusSetter</node>
+    <node x="179.63095238095232" y="0.0">Interfaces.ConditionChecker</node>
+    <node x="148.0" y="886.0">Persons.Kids</node>
+    <node x="236.0" y="1030.0">Interfaces.ForRope</node>
+    <node x="453.0" y="234.5">Nature.Sun</node>
+    <node x="813.0" y="886.0">Persons.Ponchik</node>
+    <node x="0.0" y="527.5">Places.Balloon.Parachute</node>
+    <node x="574.0" y="1030.0">Places.HeightException</node>
+    <node x="992.0" y="1030.0">Main</node>
+    <node x="0.0" y="886.0">Persons.Syrop</node>
+    <node x="795.0" y="1030.0">Places.ZeroException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Persons.Toropyzhka" target="Persons.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="479.0" y="866.0" />
+      <point x="582.8571428571429" y="866.0" />
+      <point x="-29.14285714285711" y="94.0" />
+    </edge>
+    <edge source="Persons.Kids" target="Persons.Person">
+      <point x="0.0" y="-49.5" />
+      <point x="271.5" y="856.0" />
+      <point x="553.7142857142858" y="856.0" />
+      <point x="-58.28571428571428" y="94.0" />
+    </edge>
+    <edge source="Places.Balloon.Bench" target="Places.Balloon">
+      <point x="-32.75" y="-38.5" />
+      <point x="172.75" y="491.0" />
+      <point x="167.0" y="491.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="Persons.Syrop" target="Persons.Person">
+      <point x="0.0" y="-49.5" />
+      <point x="64.0" y="846.0" />
+      <point x="524.5714285714286" y="846.0" />
+      <point x="-87.42857142857144" y="94.0" />
+    </edge>
+    <edge source="Nature.Sun" target="Interfaces.ConditionChecker">
+      <point x="-40.0" y="-71.5" />
+      <point x="493.0" y="106.0" />
+      <point x="326.2976190476189" y="106.0" />
+      <point x="58.66666666666663" y="38.0" />
+    </edge>
+    <edge source="Nature.Sun" target="Interfaces.StatusSetter">
+      <point x="40.0" y="-71.5" />
+      <point x="573.0" y="96.0" />
+      <point x="496.74999999999994" y="96.0" />
+      <point x="48.0" y="38.0" />
+    </edge>
+    <edge source="Persons.Ponchik" target="Persons.Person">
+      <point x="0.0" y="-49.5" />
+      <point x="882.0" y="856.0" />
+      <point x="670.2857142857143" y="856.0" />
+      <point x="58.285714285714334" y="94.0" />
+    </edge>
+    <edge source="Persons.Neznaika" target="Persons.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="737.0" y="866.0" />
+      <point x="641.1428571428571" y="866.0" />
+      <point x="29.14285714285711" y="94.0" />
+    </edge>
+    <edge source="Nature.Wind" target="Interfaces.StatusSetter">
+      <point x="39.99999999999994" y="-71.5" />
+      <point x="392.99999999999994" y="126.0" />
+      <point x="448.74999999999994" y="126.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Nature.Wind" target="Interfaces.ConditionChecker">
+      <point x="-40.00000000000006" y="-71.5" />
+      <point x="312.99999999999994" y="106.0" />
+      <point x="267.6309523809523" y="106.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Places.Balloon" target="Interfaces.StatusSetter">
+      <point x="43.0" y="-160.0" />
+      <point x="210.0" y="116.0" />
+      <point x="400.74999999999994" y="116.0" />
+      <point x="-48.0" y="38.0" />
+    </edge>
+    <edge source="Places.Balloon.Parachute" target="Places.Balloon">
+      <point x="0.0" y="-27.0" />
+      <point x="60.0" y="491.0" />
+      <point x="109.66666666666666" y="491.0" />
+      <point x="-57.333333333333336" y="160.0" />
+    </edge>
+    <edge source="Places.Balloon" target="Interfaces.ConditionChecker">
+      <point x="-43.0" y="-160.0" />
+      <point x="124.0" y="106.0" />
+      <point x="208.96428571428564" y="106.0" />
+      <point x="-58.666666666666686" y="38.0" />
+    </edge>
+    <edge source="Persons.Znaika" target="Persons.Person">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Persons.Grumbler" target="Persons.Person">
+      <point x="0.0" y="-38.5" />
+      <point x="1040.0" y="846.0" />
+      <point x="699.4285714285714" y="846.0" />
+      <point x="87.42857142857144" y="94.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="681.4285714285713" y="980.4285714285714" />
+  <SelectedNodes>
+    <node>Places.HeightException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
