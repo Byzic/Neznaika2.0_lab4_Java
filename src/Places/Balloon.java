@@ -4,7 +4,7 @@ import Persons.Person;
 
 public class Balloon implements ConditionChecker,StatusSetter {
     private boolean cooldown = false;
-    private int height=10;
+    private int height=15;
     private int temperature=15;
     public int getTemperature(){
         return temperature;

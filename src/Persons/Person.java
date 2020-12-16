@@ -27,7 +27,7 @@ public abstract class Person {
         }
     }
     public void continueConflict(Person person){ //можно узнать, что происходит с конфликтом
-        if ((conflict==true) && (person.conflict==true)){
+        if ((conflict) && (person.conflict)){
             System.out.println(getName()+" и " + person.getName()+" не умолкали");
         }
         else {
@@ -41,6 +41,7 @@ public abstract class Person {
     public void setPlace(Balloon place) {
         this.place = place;
     }
+
 
 }
 

@@ -8,19 +8,24 @@ public class Main {
         Sun sun=new Sun();
         Wind wind=new Wind();
 
+
         Grumbler grumbler= new Grumbler();
         Neznaika neznaika= new Neznaika();
+        Neznaika.Pocket pocket=neznaika.new Pocket();
+        Neznaika.Finger finger=neznaika.new Finger();
+        Neznaika.Forehead forehead=neznaika.new Forehead();
         Znaika znaika=new Znaika();
         Toropyzhka toropyzhka=new Toropyzhka();
         Ponchik ponchik=new Ponchik(100);
         Syrop syrop=new Syrop(150);
         Kids kids= new Kids();
+        Kids.Hands hands=kids.new Hands();
         Balloon balloon=new Balloon();
         Balloon.Bench bench= balloon.new Bench();
 
         Balloon.Parachute parachute=new Balloon.Parachute();
-        kids.grab(parachute);
-        kids.changeLocation(toropyzhka,balloon);
+        kids.grab(parachute,hands);
+        kids.drag(toropyzhka,balloon);
 
         grumbler.setPlace(balloon);
         neznaika.setPlace(balloon);
@@ -50,6 +55,13 @@ public class Main {
 
 
         bench.sit(neznaika);
+        neznaika.think(finger.getName(),forehead.getName());
+
+        balloon.evening();
+        All all=new All();
+        all.circle(ponchik,syrop);
+
+
         ForRope rope= new ForRope() {
             @Override
             public String getName() {
@@ -67,17 +79,19 @@ public class Main {
 
             @Override
             public void printComparison(Person person, Syrop person1, Ponchik person2) {    //выводим результат сравнения
-                System.out.println(person.getName()+" взял "+getName());
                 System.out.println(person.getName()+" измерил талию для "+person1.getName()+" и "+person2.getName());
                 try{System.out.println("Оказалось, что "+person1.getName()+" в "+compareTheWaistSize(person1, person2)+" толще чем "+person2.getName());}
                 catch (ZeroException zero){
+
                     System.err.println(person2.getName()+" лишком худой, его талия <=0");
                 }
 
             }
         };
+
+        pocket.take(rope.getName());
         rope.printComparison(neznaika,syrop,ponchik);
-        //System.out.println(neznaika.getPlace());
+
 
 
 
