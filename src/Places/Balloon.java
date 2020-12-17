@@ -6,11 +6,11 @@ public class Balloon implements ConditionChecker,StatusSetter {
     private boolean cooldown = false;
     private int height=15;
     private int temperature=15;
-    public int getTemperature(){
-        return temperature;
-    }
     public int getHeight(){
         return height;
+    }
+    public void setHeight(int h){
+         height=h;
     }
 
     public int goDown() throws HeightException{

@@ -3,144 +3,146 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="781.5" y="908.0">Persons.Grumbler</node>
-    <node x="464.5" y="1057.0">Persons.Neznaika.Pocket</node>
-    <node x="574.5" y="638.0">Persons.Person</node>
-    <node x="0.0" y="1179.0">Nature.TimeOfDay</node>
-    <node x="81.76190476190473" y="146.0">Places.Balloon</node>
-    <node x="0.0" y="919.5">Persons.Toropyzhka</node>
-    <node x="346.5" y="1068.5">Persons.Kids.Hands</node>
-    <node x="939.5" y="919.5">Persons.Znaika</node>
-    <node x="591.5" y="886.0">Persons.Neznaika</node>
-    <node x="273.76190476190476" y="234.5">Nature.Wind</node>
+    <node x="0.0" y="908.0">Persons.Grumbler</node>
+    <node x="545.9999999999999" y="1057.0">Persons.Neznaika.Pocket</node>
+    <node x="511.99999999999994" y="638.0">Persons.Person</node>
+    <node x="1172.0" y="638.0">Nature.TimeOfDay</node>
+    <node x="47.0" y="124.0">Places.Balloon</node>
+    <node x="723.0" y="919.5">Persons.Toropyzhka</node>
+    <node x="208.49999999999994" y="1068.5">Persons.Kids.Hands</node>
+    <node x="1029.0" y="919.5">Persons.Znaika</node>
+    <node x="524.9999999999999" y="886.0">Persons.Neznaika</node>
+    <node x="453.0" y="234.5">Nature.Wind</node>
     <node x="140.0" y="516.0">Places.Balloon.Bench</node>
-    <node x="196.39285714285714" y="0.0">Interfaces.StatusSetter</node>
-    <node x="360.75" y="0.0">Interfaces.ConditionChecker</node>
-    <node x="296.0" y="897.0">Persons.Kids</node>
-    <node x="236.0" y="1179.0">Interfaces.ForRope</node>
-    <node x="752.5" y="1068.5">Persons.Neznaika.Finger</node>
-    <node x="453.76190476190476" y="234.5">Nature.Sun</node>
-    <node x="1057.5" y="897.0">Persons.Ponchik</node>
+    <node x="376.75" y="0.0">Interfaces.StatusSetter</node>
+    <node x="179.63095238095235" y="0.0">Interfaces.ConditionChecker</node>
+    <node x="157.99999999999994" y="886.0">Persons.Kids</node>
+    <node x="0.0" y="1179.0">Interfaces.ForRope</node>
+    <node x="702.0" y="1068.5">Persons.Neznaika.Finger</node>
+    <node x="273.0" y="234.5">Nature.Sun</node>
+    <node x="871.0" y="897.0">Persons.Ponchik</node>
     <node x="0.0" y="527.5">Places.Balloon.Parachute</node>
-    <node x="574.0" y="1179.0">Places.HeightException</node>
-    <node x="148.0" y="897.0">Persons.Syrop</node>
-    <node x="992.0" y="1179.0">Main</node>
-    <node x="795.0" y="1179.0">Places.ZeroException</node>
-    <node x="620.5" y="1068.5">Persons.Neznaika.Forehead</node>
+    <node x="338.0" y="1179.0">Places.HeightException</node>
+    <node x="376.99999999999994" y="897.0">Persons.Syrop</node>
+    <node x="756.0" y="1179.0">Main</node>
+    <node x="559.0" y="1179.0">Places.ZeroException</node>
+    <node x="370.24999999999994" y="1068.5">Persons.Neznaika.Forehead</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Persons.Neznaika.Pocket" target="Persons.Neznaika">
-      <point x="0.0" y="-38.5" />
-      <point x="532.5" y="1032.0" />
-      <point x="619.8333333333334" y="1032.0" />
-      <point x="-56.66666666666663" y="60.5" />
-    </edge>
     <edge source="Persons.Toropyzhka" target="Persons.Person">
       <point x="0.0" y="-27.0" />
-      <point x="64.0" y="846.0" />
-      <point x="589.0714285714286" y="846.0" />
-      <point x="-87.42857142857144" y="94.0" />
+      <point x="787.0" y="866.0" />
+      <point x="643.142857142857" y="866.0" />
+      <point x="29.14285714285711" y="94.0" />
+    </edge>
+    <edge source="Persons.Neznaika.Pocket" target="Persons.Neznaika">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="60.5" />
     </edge>
     <edge source="Persons.Kids" target="Persons.Person">
-      <point x="0.0" y="-49.5" />
-      <point x="395.5" y="866.0" />
-      <point x="647.3571428571429" y="866.0" />
-      <point x="-29.14285714285711" y="94.0" />
+      <point x="0.0" y="-60.5" />
+      <point x="257.49999999999994" y="856.0" />
+      <point x="555.7142857142857" y="856.0" />
+      <point x="-58.28571428571422" y="94.0" />
     </edge>
     <edge source="Places.Balloon.Bench" target="Places.Balloon">
       <point x="-32.75" y="-38.5" />
       <point x="172.75" y="491.0" />
-      <point x="167.76190476190473" y="491.0" />
+      <point x="167.0" y="491.0" />
       <point x="0.0" y="160.0" />
     </edge>
     <edge source="Persons.Kids.Hands" target="Persons.Kids">
       <point x="0.0" y="-27.0" />
-      <point x="0.0" y="49.5" />
+      <point x="0.0" y="60.5" />
     </edge>
     <edge source="Persons.Syrop" target="Persons.Person">
       <point x="0.0" y="-49.5" />
-      <point x="212.0" y="856.0" />
-      <point x="618.2142857142858" y="856.0" />
-      <point x="-58.28571428571428" y="94.0" />
+      <point x="440.99999999999994" y="866.0" />
+      <point x="584.8571428571428" y="866.0" />
+      <point x="-29.14285714285711" y="94.0" />
     </edge>
     <edge source="Nature.Sun" target="Interfaces.ConditionChecker">
-      <point x="40.0" y="-71.5" />
-      <point x="573.7619047619048" y="126.0" />
-      <point x="507.41666666666663" y="126.0" />
-      <point x="58.66666666666666" y="38.0" />
+      <point x="-40.0" y="-71.5" />
+      <point x="313.0" y="106.0" />
+      <point x="267.63095238095235" y="106.0" />
+      <point x="0.0" y="38.0" />
     </edge>
     <edge source="Nature.Sun" target="Interfaces.StatusSetter">
-      <point x="-40.0" y="-71.5" />
-      <point x="493.76190476190476" y="96.0" />
-      <point x="316.3928571428571" y="96.0" />
-      <point x="48.0" y="38.0" />
+      <point x="40.0" y="-71.5" />
+      <point x="393.0" y="126.0" />
+      <point x="448.75" y="126.0" />
+      <point x="0.0" y="38.0" />
     </edge>
     <edge source="Persons.Ponchik" target="Persons.Person">
       <point x="0.0" y="-49.5" />
-      <point x="1126.5" y="846.0" />
-      <point x="763.9285714285714" y="846.0" />
-      <point x="87.42857142857144" y="94.0" />
+      <point x="940.0" y="856.0" />
+      <point x="672.2857142857142" y="856.0" />
+      <point x="58.285714285714334" y="94.0" />
     </edge>
     <edge source="Persons.Neznaika" target="Persons.Person">
       <point x="0.0" y="-60.5" />
       <point x="0.0" y="94.0" />
     </edge>
     <edge source="Nature.Wind" target="Interfaces.ConditionChecker">
-      <point x="40.0" y="-71.5" />
-      <point x="393.7619047619047" y="126.0" />
-      <point x="448.75" y="126.0" />
-      <point x="0.0" y="38.0" />
+      <point x="-40.0" y="-71.5" />
+      <point x="493.0" y="106.0" />
+      <point x="326.297619047619" y="106.0" />
+      <point x="58.66666666666663" y="38.0" />
     </edge>
     <edge source="Persons.Neznaika.Finger" target="Persons.Neznaika">
       <point x="0.0" y="-27.0" />
-      <point x="801.5" y="1032.0" />
-      <point x="733.1666666666666" y="1032.0" />
-      <point x="56.66666666666663" y="60.5" />
+      <point x="751.0" y="1032.0" />
+      <point x="673.3333333333333" y="1032.0" />
+      <point x="59.33333333333337" y="60.5" />
     </edge>
     <edge source="Nature.Wind" target="Interfaces.StatusSetter">
-      <point x="-40.0" y="-71.5" />
-      <point x="313.76190476190476" y="106.0" />
-      <point x="268.3928571428571" y="106.0" />
-      <point x="0.0" y="38.0" />
+      <point x="40.0" y="-71.5" />
+      <point x="573.0" y="96.0" />
+      <point x="496.75" y="96.0" />
+      <point x="48.0" y="38.0" />
     </edge>
     <edge source="Places.Balloon" target="Interfaces.StatusSetter">
-      <point x="-43.0" y="-160.0" />
-      <point x="124.76190476190473" y="106.0" />
-      <point x="220.39285714285714" y="106.0" />
+      <point x="43.0" y="-160.0" />
+      <point x="210.0" y="116.0" />
+      <point x="400.75" y="116.0" />
       <point x="-48.0" y="38.0" />
     </edge>
     <edge source="Places.Balloon.Parachute" target="Places.Balloon">
       <point x="0.0" y="-27.0" />
       <point x="60.0" y="491.0" />
-      <point x="110.42857142857139" y="491.0" />
-      <point x="-57.333333333333336" y="160.0" />
+      <point x="109.66666666666666" y="491.0" />
+      <point x="-57.33333333333334" y="160.0" />
     </edge>
     <edge source="Places.Balloon" target="Interfaces.ConditionChecker">
-      <point x="43.0" y="-160.0" />
-      <point x="210.76190476190473" y="116.0" />
-      <point x="390.08333333333337" y="116.0" />
+      <point x="-43.0" y="-160.0" />
+      <point x="124.0" y="106.0" />
+      <point x="208.96428571428572" y="106.0" />
       <point x="-58.66666666666666" y="38.0" />
     </edge>
     <edge source="Persons.Znaika" target="Persons.Person">
       <point x="0.0" y="-27.0" />
-      <point x="988.5" y="856.0" />
-      <point x="734.7857142857143" y="856.0" />
-      <point x="58.285714285714334" y="94.0" />
+      <point x="1078.0" y="846.0" />
+      <point x="701.4285714285713" y="846.0" />
+      <point x="87.42857142857144" y="94.0" />
     </edge>
     <edge source="Persons.Neznaika.Forehead" target="Persons.Neznaika">
       <point x="0.0" y="-27.0" />
-      <point x="0.0" y="60.5" />
+      <point x="426.24999999999994" y="1032.0" />
+      <point x="554.6666666666665" y="1032.0" />
+      <point x="-59.33333333333337" y="60.5" />
     </edge>
     <edge source="Persons.Grumbler" target="Persons.Person">
       <point x="0.0" y="-38.5" />
-      <point x="850.5" y="866.0" />
-      <point x="705.6428571428571" y="866.0" />
-      <point x="29.14285714285711" y="94.0" />
+      <point x="69.0" y="846.0" />
+      <point x="526.5714285714284" y="846.0" />
+      <point x="-87.42857142857144" y="94.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="725.2777777777778" y="197.50000000000006" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="819.4404761904752" y="363.99999999999994" />
+  <SelectedNodes>
+    <node>Places.Balloon</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

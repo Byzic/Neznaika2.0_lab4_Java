@@ -29,8 +29,7 @@ public class Main {
 
         grumbler.setPlace(balloon);
         neznaika.setPlace(balloon);
-
-
+        neznaika.see();
         balloon.goUp();
 
         neznaika.say("Стойте. Теперь я буду главным!");
@@ -57,9 +56,13 @@ public class Main {
         bench.sit(neznaika);
         neznaika.think(finger.getName(),forehead.getName());
 
-        balloon.evening();
-        All all=new All();
-        all.circle(ponchik,syrop);
+        try {
+            balloon. setHeight(balloon.goDown());
+        } catch (HeightException e) {
+            System.err.println(e.getMessage()+" он упал и разбился :(");
+        }
+
+        kids.circle(ponchik,syrop);
 
 
         ForRope rope= new ForRope() {

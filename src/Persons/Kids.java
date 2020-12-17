@@ -10,6 +10,17 @@ public class Kids extends Person {
         System.out.println(" перетащили "+ person.getName()+" в "+ place.getName()) ;
         person.setPlace(place);
     }
+
+    public void circle(Person p1,Person p2){
+        class All extends Person {
+            @Override
+            public String getName() {
+                return "Все";
+            }
+        }
+        All all=new All();
+        System.out.println(all.getName()+" окружили "+p1.getName()+" и "+p2.getName());
+    }
     @Override
     public String getName() {
         return "Малыши";

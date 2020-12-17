@@ -9,7 +9,7 @@ public class Neznaika extends Person {
         System.out.println(getName()+" приложил "+str1+" к "+str2+" и начал думать");
     }
     public void see(){
-        System.out.println(getName()+"увидел");
+        System.out.println(getName()+" увидел:");
     }
     @Override
     public void say(String str){
