@@ -1,6 +1,5 @@
-package Persons;
-import Persons.Person;
-import Places.Balloon;
+package persons;
+import places.Balloon;
 
 public class Kids extends Person {
     public void grab(Balloon.Parachute par, Hands hands){

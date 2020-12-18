@@ -1,5 +1,5 @@
-package Nature;
-import Interfaces.*;
+package nature;
+import interfaces.*;
 
 public class Wind implements ConditionChecker, StatusSetter {
     private boolean strong = true;

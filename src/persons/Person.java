@@ -1,6 +1,6 @@
-package Persons;
+package persons;
 
-import Places.*;
+import places.*;
 
 public abstract class Person {
     private Balloon place = null;

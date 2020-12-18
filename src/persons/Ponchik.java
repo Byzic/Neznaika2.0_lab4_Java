@@ -1,4 +1,4 @@
-package Persons;
+package persons;
 
 public class Ponchik extends Person {
     private double waist;

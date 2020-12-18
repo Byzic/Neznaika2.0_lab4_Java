@@ -1,4 +1,4 @@
-package Persons;
+package persons;
 
 public class Znaika extends Person{
 

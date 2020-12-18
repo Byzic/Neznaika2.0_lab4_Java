@@ -1,6 +1,6 @@
-package Places;
-import Interfaces.*;
-import Persons.Person;
+package places;
+import interfaces.*;
+import persons.Person;
 
 public class Balloon implements ConditionChecker,StatusSetter {
     private boolean cooldown = false;

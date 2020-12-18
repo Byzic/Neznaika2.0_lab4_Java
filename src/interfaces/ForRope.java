@@ -1,9 +1,9 @@
-package Interfaces;
+package interfaces;
 
-import Persons.Person;
-import Persons.Ponchik;
-import Persons.Syrop;
-import Places.ZeroException;
+import persons.Person;
+import persons.Ponchik;
+import persons.Syrop;
+import places.ZeroException;
 
 public interface ForRope {
     public String getName();

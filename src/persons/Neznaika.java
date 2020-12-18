@@ -1,5 +1,5 @@
-package Persons;
-import Places.Balloon.Bench;
+package persons;
+
 public class Neznaika extends Person {
    /* public void setPlaceInBalloon(Bench place){
 

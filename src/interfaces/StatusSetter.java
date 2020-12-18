@@ -1,4 +1,4 @@
-package Interfaces;
+package interfaces;
 
 public interface StatusSetter {
     void evening(); //состояние вечером

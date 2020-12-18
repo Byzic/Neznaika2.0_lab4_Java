@@ -1,5 +1,5 @@
-package Nature;
-import Interfaces.*;
+package nature;
+import interfaces.*;
 public class Sun implements ConditionChecker, StatusSetter {
     private boolean sunset = true;
     @Override

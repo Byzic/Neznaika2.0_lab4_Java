@@ -1,4 +1,4 @@
-package Places;
+package places;
 
 public class HeightException extends Exception {               // ошибка вылазит, если
     public HeightException(String message) {

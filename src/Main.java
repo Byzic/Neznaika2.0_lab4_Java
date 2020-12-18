@@ -1,7 +1,7 @@
-import Interfaces.ForRope;
-import Persons.*;
-import Places.*;
-import Nature.*;
+import interfaces.ForRope;
+import persons.*;
+import places.*;
+import nature.*;
 public class Main {
     public static void main(String[] args) {
         TimeOfDay time= TimeOfDay.MORNING;
